@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1567709633 source:c:\laboratorio c\tp 1\dominguez.c
+	<stdio.h>
+	<stdlib.h>
+
+1567709777 source:c:\laboratorio c\tp 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"dominguez.h"
+
+1567709777 c:\laboratorio c\tp 1\dominguez.h
+
