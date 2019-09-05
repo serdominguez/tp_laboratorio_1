@@ -21,12 +21,6 @@ int main()
     {
         opcion=getIntMaxMin("ingrese opcion: ", "ERROR. DEBE INGRESAR UN NUMERO ENTRE 1 Y 5\nIngrese opcion: ", &operando1,&operando2,5,1);
 
-        while (opcion<1 || opcion>6)
-        {
-
-            opcion=getIntMaxMin("ERROR. DEBE INGRESAR UN NUMERO ENTRE 1 Y 5\nIngrese opcion: ", "ERROR. DEBE INGRESAR UN NUMERO ENTRE 1 Y 5\nIngrese opcion: ", &operando1,&operando2,5,1);
-
-        }
 
         switch (opcion)
         {
